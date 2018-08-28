@@ -7,7 +7,7 @@ max_number = 0
 
 while True:
 
-    number = int(input('введите натуральное число\n для выхода введите 0'))
+    number = int(input('введите натуральное число\n для выхода введите 0\n'))
 
     if number == 0:
 
