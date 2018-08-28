@@ -27,7 +27,13 @@ while operator != '0':
 
     elif operator == '/':
 
-        print(a / b)
+        if b == 0:
+
+            print('Деление на ноль')
+
+        else:
+
+            print(a / b)
 
     elif operator == '-':
 
