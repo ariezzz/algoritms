@@ -19,7 +19,7 @@ def hex_to_ten(hex_n):
 
         hex_number[value] = key
 
-    return sum([hex_number[j] * (16**i) for i, j in enumerate(hex_1)])
+    return sum([hex_number[j] * (16**i) for i, j in enumerate(hex_n)])
 
 
 def ten_to_hex(int_n):
@@ -44,6 +44,7 @@ def ten_to_hex(int_n):
 
 NUMBERS = '0123456789abcdef'
 
+print('Воспринимаются цифры: {NUMBERS}')
 
 hex_1 = deque(input('Введите первое число\t'))
 
