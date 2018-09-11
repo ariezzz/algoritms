@@ -41,10 +41,9 @@ def ten_to_hex(int_n):
     return [int_number[i] for i in lst[::-1]]
 
 
-
 NUMBERS = '0123456789abcdef'
 
-print('Воспринимаются цифры: {NUMBERS}')
+print(f'Воспринимаются цифры: {NUMBERS}')
 
 hex_1 = deque(input('Введите первое число\t'))
 
