@@ -14,6 +14,8 @@ m = int(input('Введите целое натуральное цисло:\t'))
 
 array = [randint(-100, 100) for _ in range(2 * m + 1)]
 
+array = [-19, 10, 17, 21, 21, 22, 31, 67, 73]
+
 print(f'Список - {array}')
 
 min_1 = float('Inf')
